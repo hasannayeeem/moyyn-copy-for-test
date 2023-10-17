@@ -1,0 +1,15 @@
+
+.footer_ul_li-link {
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 13px;
+    color: #888888;
+    padding-bottom: 7.5px;
+    margin-top: 7.5px;
+}
+.footer_ul_li-link:hover {
+    color: #6EB6FF;
+}
+.footer_ul_li {
+    position: relative;
+}
