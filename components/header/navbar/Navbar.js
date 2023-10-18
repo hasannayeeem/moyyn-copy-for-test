@@ -1,17 +1,23 @@
 import React, { useEffect, useState } from "react";
-// import "./navbar.module.css";
-const isBrowser = typeof window !== "undefined";
-// const isSticky = isBrowser ? "sticky" : "";
-
+import { isBrowser } from "../../../utils/isBrowser";
 
 function Navbar() {
-    const [sticky, setSticky] = useState('')
-    useEffect(() => {
-        isBrowser && window.scrollY > 150 && setSticky(`sticky`);
-        console.log(sticky);
-      }, []);
+  const [isSticky, setIsSticky] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isBrowser]);
   return (
-    <nav className={`${sticky} navbar-wrapper`}>
+    <nav className={`navbar-wrapper ${isSticky ? 'sticky' : ''}`}>
       <div className="navbar">
         <div className="navbar-logo">
           <img
