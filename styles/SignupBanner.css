@@ -1,85 +1,85 @@
 .signup-bnr-wrapper {
-    background: #6eb6ff;
-  }
-  .signup-bnr_top {
-    display: grid;
-    padding: 100px 130px;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    position: relative;
-    /* max-height: 500px; */
-  }
-  .signup-bnr_top_text {
-    width: 580px;
-    margin-top: -50px;
-    z-index: 1;
-  }
-  .signup-bnr_top_text_tittle {
-    color: #fff;
-    font-size: 60px;
-    font-family: "Poppins", Sans-serif;
-    font-weight: 900;
-    margin-bottom: 15px;
-  }
-  .signup-bnr_top_text_paragraph {
-    color: #fff;
-    font-family: "Poppins", Sans-serif;
-    font-size: 20px;
-    line-height: 1.5em;
-    margin-bottom: 45px;
-    font-weight: 300;
-  }
-  .signup-bnr_top_text_button {
-    color: #fff;
-    font-size: 20px;
-    font-family: "Poppins", Sans-serif;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  .signup-bnr_top_text_button_icon-wrapper {
-    background: rgba(255, 255, 255, 0.18);
-    width: 68px;
-    height: 68px;
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 0.3s;
-  }
-  .signup-bnr_top_text_button_icon-wrapper:hover {
-    height: 62px;
-    width: 62px;
-    margin: 3px;
-    background: #fff;
-  }
-  .signup-bnr_top_text_button_icon-wrapper:hover .signup-bnr_top_text_button_icon {
-    color: #265cff;
-  }
-  .signup-bnr_top_text_button_icon {
-    font-size: 34px;
-    transition: all 0.3s;
-  }
-  .signup-bnr_top_image {
-    margin: auto;
-    z-index: 1;
-  }
-  .signup-bnr_top_svg {
-    transform: translateX(-50%) rotateY(180deg);
-    height: 335px;
-    left: 50%;
-    width: calc(100% + 25%);
-    display: block;
-    position: relative;
-    fill: #fff;
-  }
-  .signup-bnr_top_svg-wrapper {
-    transform: rotate(180deg);
-    grid-column-start: 1;
-    grid-column-end: 3;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-  }
+  background: #6eb6ff;
+}
+.signup-bnr_top {
+  display: grid;
+  padding: 100px 130px;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  /* max-height: 500px; */
+}
+.signup-bnr_top_text {
+  width: 580px;
+  margin-top: -50px;
+  z-index: 1;
+}
+.signup-bnr_top_text_tittle {
+  color: #fff;
+  font-size: 60px;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.signup-bnr_top_text_paragraph {
+  color: #fff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-bottom: 45px;
+  font-weight: 300;
+}
+.signup-bnr_top_text_button {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Poppins", Sans-serif;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.signup-bnr_top_text_button_icon-wrapper {
+  background: rgba(255, 255, 255, 0.18);
+  width: 68px;
+  height: 68px;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.signup-bnr_top_text_button_icon-wrapper:hover {
+  height: 62px;
+  width: 62px;
+  margin: 3px;
+  background: #fff;
+}
+.signup-bnr_top_text_button_icon-wrapper:hover .signup-bnr_top_text_button_icon {
+  color: #265cff;
+}
+.signup-bnr_top_text_button_icon {
+  font-size: 34px;
+  transition: all 0.3s;
+}
+.signup-bnr_top_image {
+  margin: auto;
+  z-index: 1;
+}
+.signup-bnr_top_svg {
+  transform: translateX(-50%) rotateY(180deg);
+  height: 335px;
+  left: 50%;
+  width: calc(100% + 22%);
+  display: block;
+  position: relative;
+  fill: #fff;
+}
+.signup-bnr_top_svg-wrapper {
+  transform: rotate(180deg);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}

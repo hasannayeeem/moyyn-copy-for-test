@@ -25,16 +25,21 @@ const Column = styled.div`
 const Heading = styled.h3`
   font-size: 34px;
   margin-bottom: 20px;
+  font-weight: 600;
 `;
 
 const Title = styled.h3`
   font-size: 18px;
   color: #000;
   margin-bottom: 20px;
+  font-weight: 600;
 `;
 
 const Description = styled.p`
   font-size: 13px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #7a7a7a;
 `;
 const Lists = styled.ul`
   display: flex;
@@ -48,10 +53,12 @@ const Icons = styled.ul`
 `;
 const ListItem = styled.li`
   list-style: none;
-  margin: 10px 0;
+  margin: 7.5px 0;
   .text-primary {
     color: #6eb6ff;
   }
+  display: flex;
+  align-items: center;
 `;
 const items = {
   socilaIcons:[

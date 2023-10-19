@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../header/navbar/navbar";
+import Nav from "../shared/Header/Navigation";
 import Hero from "../Hero";
 import Testimonials from "../Testimonials";
 import PricingComponent from "../Pricing";
@@ -10,7 +10,7 @@ import SignupBanner from "../SignupBanner/SignupBanner";
 
 function Home() {
   return <nav>
-    <Navbar/>
+    <Nav/>
     <Hero/>
     <AtAGlanceSection />
     <Testimonials />

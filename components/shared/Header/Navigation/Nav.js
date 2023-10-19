@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { isBrowser } from "../../../utils/isBrowser";
+import { isBrowser } from "../../../../utils/isBrowser";
 
-function Navbar() {
+function Nav() {
   const [isSticky, setIsSticky] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -57,4 +57,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Nav;

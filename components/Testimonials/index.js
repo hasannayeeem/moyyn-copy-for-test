@@ -1,63 +1,9 @@
 import React from "react";
-import styled from "styled-components";
 import { Container } from "../Common/Container.stc";
+import { ButtonWrapper, Section } from "../Common";
+import { PrimaryBtn } from "../Common/PrimaryBtn.stc";
+import { Column, Heading, Image, ImageBox, Images, ImagesBox, Review, Row, Testimonial } from "../Common/testimonialStc";
 
-// Create styled components with styles
-const Section = styled.section`
-  width: 1440px;
-  display: flex;
-  justify-content: center;
-`;
-
-const Row = styled.div`
-  width: 100%;
-`;
-
-const Column = styled.div`
-  flex: 1;
-  padding: 15px;
-`;
-const Images = styled.div`
-  display: flex;
-  align-items: center;
-  padding: 80px 0;
-`;
-const ImagesBox = styled.div`
-  flex-basis: calc(16.666% - 20px);
-  max-width: calc(16.666% - 20px);
-  margin: 10px;
-`;
-
-const Heading = styled.h2`
-  margin: 30px 0;
-  text-align: center;
-  color: #000000;
-  font-family: "Poppins", Sans-serif;
-  font-size: 36px;
-  line-height: 42px;
-`;
-
-const Testimonial = styled.div`
-  font-size: 18px;
-  color: #666;
-  width: 50%;
-  text-align: right;
-  margin: 0 20px 0 0;
-`;
-
-const ImageBox = styled.div`
-  width: 50%;
-`;
-
-const Image = styled.img`
-  max-width: 80%;
-  height: auto;
-`;
-
-const Review = styled.div`
-  display: flex;
-  padding: 30px 0; 
-`;
 const images = [
   "https://moyyn.com/wp-content/uploads/2021/07/paradoxcat.jpg",
   "https://moyyn.com/wp-content/uploads/2021/07/bltzr.png",
@@ -100,6 +46,11 @@ function Testimonials() {
               );
             })}
           </Images>
+          <ButtonWrapper>
+          <PrimaryBtn href="https://client.moyyn.com/">
+            Signup for free
+          </PrimaryBtn>
+        </ButtonWrapper>
         </Row>
       </Container>
     </Section>
